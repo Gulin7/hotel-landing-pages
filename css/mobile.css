@@ -1,0 +1,118 @@
+.navbar .logo {
+	float: none;
+	text-align: center;
+}
+
+.navbar .logo img {
+	width: 40px;
+	height: 40px;
+}
+
+.navbar .menu,
+.navbar .menu li {
+	float: none;
+	font-size: 16px;
+}
+
+.navbar .menu li a {
+	display: block;
+	padding: 15px;
+	text-align: center;
+}
+
+/*Showcase*/
+
+.showcase {
+	height: 500px;
+	width: 100vw;
+}
+.showcase .showcase-content {
+	text-align: center;
+	color: white;
+	padding: 10px;
+	padding-top: 40px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.showcase .showcase-content h1 {
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+/*Home info*/
+.home-info {
+	height: 400px;
+}
+.home-info .info-img {
+	display: none;
+}
+.home-info .info-content {
+	float: none;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+.home-info .info-content h2 {
+	padding-bottom: 10px;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.2em;
+}
+.home-info .info-content p {
+	padding-bottom: 6px;
+	font-size: 16px;
+}
+/* Features section*/
+.box {
+	float: none;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
+/* Footer*/
+.main-footer {
+	display: none;
+}
+/*About*/
+.about-info {
+	height: 400px;
+	font-size: 16px;
+}
+
+.about-info .info-left h1 {
+	padding-bottom: 6px;
+}
+.about-info .info-left {
+	float: none;
+	width: 100%;
+	padding: 16px;
+}
+
+.about-info .info-right {
+	display: none;
+}
+/*About showcase*/
+.about-showcase .about-showcase-image {
+	background-color: #f1d5b9;
+	margin: auto;
+	height: 360px;
+	width: 70%;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.about-showcase .about-images {
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.about-showcase .about-images .about-image {
+	width: 45vw;
+}
+/*Contact info*/
+.info {
+	float: none;
+	width: 100%;
+}
