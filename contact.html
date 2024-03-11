@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Welcome to GT Hotel, the most luxurious Hotel in Gardani." />
+	<meta name="author" content="Gulin Tudor" />
+	<meta name="keywords" content="hotel, gardani hotel, luxurious, 5 star" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" media="screen and (max-width:960px)" href="./css/mobile.css" />
+	<script src="https://kit.fontawesome.com/7db101f44a.js" crossorigin="anonymous"></script>
+	<title>Contact GT Hotel</title>
+	<body>
+		<header>
+			<nav class="navbar bg-dark">
+				<div class="container">
+					<div class="logo">
+						<a href="index.html">
+							<img src="./images/logo.png" alt="GT Hotel" />
+						</a>
+					</div>
+					<ul class="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html" class="current">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<section class="main-contact bg-light">
+			<div class="container">
+				<h1><span class="text-1">Contact</span> Us</h1>
+				<form action="process.php">
+					<div class="form-group">
+						<div class="form-label">
+							<label for="name">Name</label>
+							<input type="text" id="name" />
+						</div>
+						<div class="form-label">
+							<label for="email">Email</label>
+							<input type="email" id="email" />
+						</div>
+						<div class="form-label">
+							<label for="age">Age</label>
+							<input type="number" id="age" />
+						</div>
+						<div class="form-label">
+							<label for="sex">Sex</label>
+							<select id="sex">
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+						<div class="form-label">
+							<label for="message">Message</label>
+							<textarea id="message"></textarea>
+						</div>
+						<button class="btn">Submit</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="contact-info bg-dark">
+			<div class="container">
+				<div class="info bg-dark">
+					<i class="fas fa-envelope fa-3x"></i>
+					<h3>Email</h3>
+					<p>gthotelgardni@gmail.com</p>
+				</div>
+				<div class="info bg-primary">
+					<i class="fas fa-phone fa-3x"></i>
+					<h3>Phone</h3>
+					<p>0123 456 789</p>
+				</div>
+				<div class="info bg-dark">
+					<i class="fas fa-map-marker-alt fa-3x"></i>
+					<h3>Address</h3>
+					<p>Gardani, Maramures</p>
+				</div>
+			</div>
+		</section>
+		<div class="clear"></div>
+		<footer class="main-footer bg-dark">
+			<div class="container">
+				<div>
+					GT Hotel &nbsp; &copy; 2024 &nbsp;
+					<a href="https://github.com/Gulin7" target="_blank"> Gulin Tudor</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
