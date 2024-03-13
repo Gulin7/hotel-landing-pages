@@ -314,3 +314,13 @@ footer {
 	color: white;
 	text-decoration: none;
 }
+
+#footer .text-primary {
+	padding-right: 3px;
+}
+
+#footer a:hover,
+#footer .text-primary:hover {
+	font-weight: 700;
+	text-decoration: underline;
+}
