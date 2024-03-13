@@ -1,20 +1,27 @@
-# Travel Agency Website
+# GTravel - Travel Agency Website
 
 <h2>Description</h2>
-<p> This is a travel agency website that also includes a few hotel landing pages made by me, from scratch.</p>
+<!-- <p> This is a travel agency website that also includes a few hotel websites made by me.</p> -->
 
 <h2>Tech stack</h2>
 HTML, CSS, Js, JQuery, Netlify(for deployment of landing pages).
 <br/>
 <h2>Features</h2>
--
+<!-- 
+- User can see available Hotels by: destionation, start-end date and room size
+- Admin = can add, update, remove hotels
+- Users can leave reviews
+- Users can book rooms for a hotel
+- Hotel User - can add: description, facilities, location, rooms + prices, contact info, pictures 
+-->
 <br/>
 <h2>Hotel Landing Pages</h2>
-1. Landing Page 1 <br/>
+<p>Here are the websites for the hotels posted on GTravel</p>
+1. WebHotel 1 <br/>
 - tech stack: html, css <br/>
-- view code: <a href="https://github.com/Gulin7/travel-agency-website/tree/main/hotel-layout-1">hotel-layout-1</a> <br/>
-- link: <a href="https://dynamic-gaufre-c6d6aa.netlify.app/">hotel-website-1</a> <br/>
-2. Landing Page 2 <br/>
-- tech stack: html, css, js, jquery(smooth scrolling) <br/>
-- view code: <a href="https://github.com/Gulin7/travel-agency-website/tree/main/hotel-layout-2">hotel-layout-2</a> <br/>
-- link: <a href="">hotel-website-2</a> </br>
+- view code: <a href="https://github.com/Gulin7/travel-agency-website/tree/main/hotel-layout-1"> GT Hotel 1 code</a> <br/>
+- link: <a href="https://gt-hotel-1.netlify.app/">GT Hotel 1</a> <br/>
+2. WebHotel 2 <br/>
+- tech stack: html, css, js&jquery(a little bit) <br/>
+- view code: <a href="https://github.com/Gulin7/travel-agency-website/tree/main/hotel-layout-2">GT Hotel 2 code</a> <br/>
+- link: <a href="https://gt-hotel-2.netlify.app/">GT Hotel 2</a> </br>
