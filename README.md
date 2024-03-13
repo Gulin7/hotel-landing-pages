@@ -16,7 +16,8 @@ HTML, CSS, Js, JQuery, Netlify(for deployment of landing pages).
 -->
 <br/>
 <h2>Hotel Landing Pages</h2>
-<p>Here are the websites for the hotels posted on GTravel</p>
+<p>Here are the websites for the hotels posted on GTravel.
+They are responsive and gradually more complex.</p>
 1. WebHotel 1 <br/>
 - tech stack: html, css <br/>
 - view code: <a href="https://github.com/Gulin7/travel-agency-website/tree/main/hotel-layout-1"> GT Hotel 1 code</a> <br/>
