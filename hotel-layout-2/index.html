@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/widescreen.css" media="screen and (min-width: 1200px)" />
+		<link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 820px)" />
+		<title>GT Hotel</title>
+	</head>
+	<body>
+		<nav id="navbar">
+			<h1 class="navbar-logo">
+				<img src="./img/logo.png" alt="GT Hotel" />
+				<span class="text-primary">GT</span> Hotel
+			</h1>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#why">Why</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<header id="showcase">
+			<div class="showcase-container">
+				<div class="showcase-content">
+					<h1>Welcome to GT Hotel</h1>
+					<p>
+						This is a hotel webpage made by Gulin Tudor. I think it looks quite cool :p
+					</p>
+					<a href="#about">
+						<div class="btn-primary">Read More</div>
+					</a>
+				</div>
+				<div></div>
+			</div>
+		</header>
+		<section id="why" class="bg-light">
+			<div class="container">
+				<div class="m-header"><span class="text-primary">Why</span> Us</div>
+				<div class="why-items">
+					<div class="why-item">
+						<i class="fas fa-bed fa-3x"></i>
+						<div>
+							<h3>Comfort</h3>
+							<p>Some random text, I ran out of ideas</p>
+						</div>
+					</div>
+					<div class="why-item">
+						<i class="fas fa-utensils fa-3x"></i>
+						<div>
+							<h3>Food</h3>
+							<p>Our chefs are the best in town</p>
+						</div>
+					</div>
+					<div class="why-item">
+						<i class="fas fa-swimmer fa-3x"></i>
+						<div>
+							<h3>Activities</h3>
+							<p>We offer a variety of outdoot and indoor activities.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="container">
+				<div class="about-header"><span class="text-primary">About</span> Us</div>
+				<p class="about-content">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio a, aut
+					pariatur sint error facilis distinctio velit sequi neque cupiditate cumque
+					eveniet architecto ex accusantium rem id atque tempora!
+				</p>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="contact-form bg-primary">
+				<h2 class="m-header"><span class="text-primary">Contact</span>Us</h2>
+				<form action="process-form.php" method="POST">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" placeholder="Enter Name" />
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" placeholder="Enter Email" />
+					</div>
+					<div class="form-group">
+						<label for="phone">Phone Number</label>
+						<input
+							type="text"
+							name="phone"
+							id="phone"
+							placeholder="Enter Phone Numbee"
+						/>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea
+							type="text"
+							name="message"
+							id="message"
+							placeholder="Enter Message"
+						></textarea>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Submit" class="btn" />
+					</div>
+				</form>
+			</div>
+			<div id="map"></div>
+		</section>
+		<footer id="footer">
+			<div class="container">
+				<p>
+					Copyright &copy;
+					<a href="https://github.com/Gulin7">
+						<span class="text-primary">Gulin </span>Tudor </a
+					>2024
+				</p>
+			</div>
+		</footer>
+		<!-- JQUERY -->
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"
+		></script>
+		<!-- MAIN JS FILE -->
+		<script src="./js/main.js"></script>
+		<!-- GOOGLE MAPS API -->
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-jhwUVQGwWCDOniqx1L-GKi1nT6JKzBM&loading=async&callback=initMap"
+			async
+			defer
+		></script>
+	</body>
+</html>
