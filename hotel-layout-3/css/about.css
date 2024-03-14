@@ -1,0 +1,190 @@
+/* Pages */
+#about-1 {
+	background: linear-gradient(180deg, var(--about-1-color), var(--about-1-color)) no-repeat,
+		url('../images/main-hotel.jpg') no-repeat center center/cover;
+}
+
+#about-2 {
+	background: linear-gradient(180deg, var(--about-2-color), var(--about-1-color)) no-repeat,
+		url('../images/restaurant.jpg') no-repeat center center/cover;
+}
+#about-3 {
+	background: linear-gradient(180deg, var(--about-3-color), var(--about-1-color)) no-repeat,
+		url('../images/sauna.jpg') no-repeat center center/cover;
+}
+#about-4 {
+	background: linear-gradient(180deg, var(--about-4-color), var(--about-1-color)) no-repeat,
+		url('../images/main-hotel-3.jpg') no-repeat center center/cover;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	padding: 0.2rem 4rem;
+}
+
+.page a {
+	text-decoration: none;
+	color: #333;
+}
+
+.page h1 {
+	font-size: 4rem;
+	margin: 1rem;
+}
+
+.page p {
+	font-size: 1.3rem;
+}
+
+.image-scroll {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.panel {
+	width: 80%;
+	height: 15rem;
+	/* border: solid 1px #aaa; */
+	display: flex;
+	gap: 0.5rem;
+	overflow-x: scroll;
+	overscroll-behavior-inline: contain;
+	margin: 1rem 0;
+	list-style-type: none;
+}
+
+.panel::-webkit-scrollbar {
+	display: none;
+}
+
+.panel img {
+	width: 100%;
+	inline-size: 100%;
+	aspect-ratio: 12/9;
+	margin-bottom: 0.5rem;
+	margin-right: 0.5rem;
+	box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+}
+
+.image-scroll .btn {
+	border-radius: 50%;
+	padding: 1rem;
+	margin: 0 0.5rem;
+}
+
+/*Page animation*/
+
+.page h1 {
+	animation: heading 2s forwards ease-in;
+}
+
+.page .btn-left {
+	opacity: 0;
+	animation: left-appear 2s forwards 4s ease-in;
+}
+
+.page .btn-right {
+	opacity: 0;
+	animation: right-appear 2s forwards 4s ease-in;
+}
+
+.page .btn-middle {
+	opacity: 0;
+	animation: middle-button 1.5s forwards 4s ease-in;
+}
+
+.page .left-arrow {
+	opacity: 0;
+	animation: left-appear 2s forwards 3s ease-in;
+}
+
+.page .right-arrow {
+	opacity: 0;
+	animation: right-appear 2s forwards 3s ease-in;
+}
+
+.page p {
+	opacity: 0;
+	animation: left-appear 2s forwards 1s ease-in;
+}
+
+.page .panel {
+	opacity: 0;
+	animation: right-appear 2s forwards 1s ease-in;
+}
+
+@keyframes heading {
+	from {
+		transform: translateY(-200px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes left-appear {
+	from {
+		transform: translateX(-400px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes right-appear {
+	from {
+		transform: translateX(400px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes middle-button {
+	from {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@media (max-width: 768px) {
+	.page {
+		line-height: 1.2;
+		font-size: 1.5rem;
+	}
+
+	.page p {
+		font-size: 1rem;
+	}
+
+	.page h1 {
+		font-size: 3rem;
+	}
+	.page .panel {
+		align-items: center;
+		height: 10rem;
+	}
+	.page .panel img {
+		height: 10rem;
+		margin-bottom: 0.3rem;
+		margin-right: 0.3rem;
+	}
+}
