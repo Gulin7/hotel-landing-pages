@@ -2,9 +2,6 @@
 
 <h2>Description</h2>
 <!-- <p> This is a travel agency website that also includes a few hotel websites made by me.</p> -->
-
-<h2>Tech stack</h2>
-HTML, CSS, Js, JQuery, Netlify(for deployment of landing pages).
 <br/>
 <h2>Features</h2>
 <!-- 
@@ -15,9 +12,11 @@ HTML, CSS, Js, JQuery, Netlify(for deployment of landing pages).
 - Hotel User - can add: description, facilities, location, rooms + prices, contact info, pictures 
 -->
 <br/>
+<h2>Tech stack</h2>
+HTML, CSS, Js, JQuery, Netlify(for deployment of landing pages).
+<br/>
 <h2>Hotel Landing Pages</h2>
-<p>Here are the websites for the hotels posted on GTravel.
-They are responsive and gradually more complex.</p>
+<p>Here are the websites for the hotels posted on GTravel. They are responsive and gradually more complex. <br/> I created them one by one, as I've learned new WebDev concepts. </p>
 1. WebHotel 1 <br/>
 - tech stack: html, css <br/>
 - view code: <a href="https://github.com/Gulin7/travel-agency-website/tree/main/hotel-layout-1"> GT Hotel 1 code</a> <br/>
