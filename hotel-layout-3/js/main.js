@@ -1,4 +1,4 @@
-//Smooth Scrolling Brad Traversy
+//Smooth Scrolling
 $('.page .btn').on('click', function (e) {
 	if (this.hash !== '') {
 		e.preventDefault()
