@@ -1,17 +1,9 @@
-# GTravel - Travel Agency Website
+# Hotel Landing Pages
 
 <h2>Description</h2>
-<!-- <p> This is a travel agency website that also includes a few hotel websites made by me.</p> -->
+<p> Landing pages built for fictional Hotels, for pracitcing the basics of HTML, CSS and Javascript. </p>
 <br/>
-<h2>Features</h2>
-<!-- 
-- User can see available Hotels by: destionation, start-end date and room size
-- Admin = can add, update, remove hotels
-- Users can leave reviews
-- Users can book rooms for a hotel
-- Hotel User - can add: description, facilities, location, rooms + prices, contact info, pictures 
--->
-<br/>
+
 <h2>Tech stack</h2>
 HTML, CSS, Js, JQuery, Netlify(for deployment of landing pages).
 <br/>
